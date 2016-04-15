@@ -22,10 +22,16 @@ a {
 }
 
 .header {
+	display: -webkit-flex;
+	display: -ms-flexbox;
 	display: flex;
 	height: 86px;
-	align-items: center;
-	justify-content: space-between;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
 	
 }
 
@@ -76,11 +82,21 @@ a {
 
 .landingText {
 
+	display: -webkit-flex;
+
+	display: -ms-flexbox;
+
 	display: flex;
-	flex-direction: column;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
 	height: 500px;
-	justify-content: center;
-	align-items: flex-start;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-align-items: flex-start;
+	    -ms-flex-align: start;
+	        align-items: flex-start;
 	margin-left: 10%; 
 
 
@@ -101,46 +117,75 @@ h2 {
 }
 
 .content {
+	display: -webkit-flex;
+	display: -ms-flexbox;
 	display: flex;
 	padding: 50px;
-	justify-content: center;
-	justify-content: space-around; /* space around to not conflict with centering on mobile */
-	flex-direction: row;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-justify-content: space-around;
+	    -ms-flex-pack: distribute;
+	        justify-content: space-around; /* removed in mobile to prevent off-centering */
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
 	height:;
-	flex-wrap: wrap;
+	-webkit-flex-wrap: wrap;
+	    -ms-flex-wrap: wrap;
+	        flex-wrap: wrap;
 }
 
 #boxes {
 
 	box-sizing: border-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
 	display: flex;
-	flex-wrap: wrap;
+	-webkit-flex-wrap: wrap;
+	    -ms-flex-wrap: wrap;
+	        flex-wrap: wrap;
 	height: 350px;
 	width: 300px;
 	margin: 20px;
-	transform: scale(1);
+	-webkit-transform: scale(1);
+	        transform: scale(1);
+	transition: -webkit-transform 0.2s ease-in-out;
 	transition: transform 0.2s ease-in-out;
+	transition: transform 0.2s ease-in-out, -webkit-transform 0.2s ease-in-out;
 }
 
 #boxes:hover {
 
-	transform: scale(1.01);
+	-webkit-transform: scale(1.01);
+
+	        transform: scale(1.01);
 	border: 1px solid #D8D8D8;
 
 }
 
 #boxes:active {
 
-	transform: scale(1.01);
+	-webkit-transform: scale(1.01);
+
+	        transform: scale(1.01);
 	border: 1px solid #D8D8D8;
 
 }
 
 #boxes .icons {
 
+	display: -webkit-flex;
+
+	display: -ms-flexbox;
+
 	display: flex;
-	align-items: center;
-	justify-content: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
 	height: 70%;
 	width: 100%;
 
@@ -154,14 +199,24 @@ h2 {
 
 #boxes .text {
 
+	display: -webkit-flex;
+
+	display: -ms-flexbox;
+
 	display: flex;
 	margin: 0;
 	height: 30%;
 	width: 100%;
 	text-align: center;
-	align-self: flex-end;
-	align-items: center;
-	justify-content: center;
+	-webkit-align-self: flex-end;
+	    -ms-flex-item-align: end;
+	        align-self: flex-end;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
 	color: #D8D8D8;
 
 
@@ -185,11 +240,21 @@ h2 {
 
 	.landingText {
 
+	display: -webkit-flex;
+
+	display: -ms-flexbox;
+
 	display: flex;
-	flex-direction: column;
+	-webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
 	height: 500px;
-	justify-content: center;
-	align-items: center;
+	-webkit-justify-content: center;
+	    -ms-flex-pack: center;
+	        justify-content: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
 	margin-left: 0;
 	padding: 20px;
 
@@ -212,10 +277,18 @@ h2 {
 	}
 
 	#navButton {
+		display: -webkit-flex;
+		display: -ms-flexbox;
 		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
+		-webkit-flex-direction: column;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+		-webkit-align-items: center;
+		    -ms-flex-align: center;
+		        align-items: center;
+		-webkit-justify-content: center;
+		    -ms-flex-pack: center;
+		        justify-content: center;
 		position: absolute;
 		width: 30px;
 		height: 30px;
@@ -313,12 +386,20 @@ h2 {
 	}
 
 	.content {
+		display: -webkit-flex;
+		display: -ms-flexbox;
 		display: flex;
 		padding: 50px;
-		justify-content: center;
-		flex-direction: row;
+		-webkit-justify-content: center;
+		    -ms-flex-pack: center;
+		        justify-content: center; 
+		-webkit-flex-direction: row; 
+		    -ms-flex-direction: row; 
+		        flex-direction: row;
 		height:;
-		flex-wrap: wrap;
+		-webkit-flex-wrap: wrap;
+		    -ms-flex-wrap: wrap;
+		        flex-wrap: wrap;
 	}
 
 }
