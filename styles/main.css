@@ -104,7 +104,7 @@ h2 {
 	display: flex;
 	padding: 50px;
 	justify-content: center;
-	justify-content: space-around;
+	justify-content: space-around; /* space around to not conflict with centering on mobile */
 	flex-direction: row;
 	height:;
 	flex-wrap: wrap;
@@ -310,6 +310,15 @@ h2 {
 
 	#mobileNav li:nth-child(3) {
 		border-top: 1px solid #2c70b4;
+	}
+
+	.content {
+		display: flex;
+		padding: 50px;
+		justify-content: center;
+		flex-direction: row;
+		height:;
+		flex-wrap: wrap;
 	}
 
 }
