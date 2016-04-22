@@ -74,6 +74,13 @@ a {
 	background-color: #68adf1;
 }
 
+.jumbotron {
+
+	display: flex;
+	flex-direction: row;
+
+}
+
 
 .landingText {
 
@@ -83,11 +90,12 @@ a {
 	justify-content: center;
 	align-items: flex-start;
 	margin-left: 10%; 
+	flex: 1;
 
 
 }
 
-h1 {
+.landingText h1 {
 	font-size: 3em;
 	
 	color: white;
@@ -95,9 +103,50 @@ h1 {
 
 }
 
-h2 {
+.landingText h2 {
 
 	color: #1561AC;
+
+}
+
+.jumbotronImg {
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 500px;
+	flex: 1;
+
+}
+
+.jumbotronImg img {
+
+
+	width: 800px;
+
+}
+
+.about {
+
+	background-color: white;
+	display: flex;
+	padding: 50px;
+	flex-direction: column;
+
+}
+
+.about h1 {
+
+	align-self: center;
+	font-size: 2em;
+	color: #318fec;
+
+}
+
+.about p {
+
+	color: #c2c2c2;
+	font-size: 1.3em;
 
 }
 
@@ -164,7 +213,7 @@ h2 {
 	align-self: flex-end;
 	align-items: center;
 	justify-content: center;
-	color: #D8D8D8;
+	color: #c2c2c2;
 
 
 }
@@ -199,11 +248,19 @@ h2 {
 
 @media screen and (max-width: 600px) {
 
+	.jumbotron {
+
+		margin-top: 50px;
+		flex-direction: column;
+		padding-bottom: 50px;
+
+	}
+
 	.landingText {
 
 	display: flex;
 	flex-direction: column;
-	height: 500px;
+	height: 200px;
 	justify-content: center;
 	align-items: center;
 	margin-left: 0;
