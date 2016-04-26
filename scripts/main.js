@@ -1,5 +1,11 @@
 $(document).ready(function() {
 
+	// touch :active solution provided by FighterJet on Stackoverflow
+
+	$('body *').on('touchstart', function (){});
+
+	// touch :active solution provided by FighterJet on Stackoverflow
+
 	$('#mobileNav').hide();
 
 
