@@ -13,9 +13,26 @@ $(document).ready(function() {
 
 		$('#mobileNav').toggle(300);
 
+
+
 	});
 
-	
+	var click = $('#boxes')
+
+	// click card 
+
+	click.on('click', function () {
+
+
+
+	})
+
+	// slide in hidden div when click card
+
+
+
+	// hide div once again with back button
+
 
 
 });
