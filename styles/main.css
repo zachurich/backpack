@@ -442,7 +442,22 @@ a {
 	.about {
 
 		flex-direction: column;
-		height: 600px;
+		height: 900px;
+
+	}
+
+	.paragraph p {
+
+		width: 80%;
+
+	}
+
+	.about p {
+
+	
+		color: white;
+		font-size: 1.3em;
+		font-weight: 400;
 
 	}
 
