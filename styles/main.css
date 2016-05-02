@@ -1,4 +1,4 @@
-body, h1, h2, ul{
+body, h1, h2, ul, p{
 	margin: 0;
 	font-family: 'Montserrat';
 	list-style-type: none;
@@ -24,7 +24,7 @@ a {
 
 .header {
 	display: flex;
-	height: 86px;
+	height: 100px;
 	align-items: center;
 	justify-content: space-between;
 	
@@ -44,6 +44,18 @@ a {
 	display: inline-block;
 	margin-right: 30px;
 	font-size: 0.8em;
+}
+
+#nav li:nth-child(1) {
+
+	margin-right: 50px;
+
+}
+
+#nav li:nth-child(2) {
+
+	margin-right: 50px;
+
 }
 
 #nav a {
@@ -77,7 +89,10 @@ a {
 .jumbotron {
 
 	display: flex;
+	justify-content: center;
+	align-items: center;
 	flex-direction: row;
+	height: 768px;
 
 }
 
@@ -86,7 +101,7 @@ a {
 
 	display: flex;
 	flex-direction: column;
-	height: 500px;
+	height: 768px;
 	justify-content: center;
 	align-items: flex-start;
 	margin-left: 10%; 
@@ -112,9 +127,9 @@ a {
 .jumbotronImg {
 
 	display: flex;
-	align-items: center;
+	align-items: flex-end;
 	justify-content: center;
-	height: 500px;
+	height: 768px;
 	flex: 1;
 
 }
@@ -122,62 +137,32 @@ a {
 .jumbotronImg img {
 
 
-	width: 250px;
+	width: 450px;
 
 }
 
-.about {
+/* About Section Begins */
 
-	background-color: #1561ac;
+
+
+/* About Section Ends */
+
+/* Content Section Begins */
+
+.keyFeatures  {
+
 	display: flex;
-	padding: 50px;
-	height: 768px;
-	flex-direction: row;
-	align-items: center;
 	justify-content: center;
-	flex-wrap: wrap;
-
-}
-
-.headline {
-
-	flex: 1;
-	display: flex;
 	align-items: center;
-	justify-content: center;
+	flex-direction: column;
 
 
 }
 
-.paragraph {
+.keyFeatures h1 {
 
-	flex: 1;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-
-}
-
-.paragraph p {
-
-	width: 80%;
-
-}
-
-.about h1 {
-
-	
-	font-size: 2em;
-	color: #318fec;
-
-}
-
-.about p {
-
-	
-	color: white;
-	font-size: 1.3em;
-	font-weight: 400;
+	padding-top: 50px;
+	color: #318FEC;
 
 }
 
@@ -185,11 +170,13 @@ a {
 	display: flex;
 	padding: 50px;
 	justify-content: center;
-	justify-content: space-around; /* removed in mobile to prevent off-centering */
+	align-items: center; /* removed in mobile to prevent off-centering */
 	flex-direction: row;
 	height:;
 	flex-wrap: wrap;
 }
+
+
 
 #boxes {
 
@@ -251,7 +238,7 @@ a {
 
 #boxes .text p:nth-child(2) {
 
-	margin-top: 0px;
+	margin-top: 10px;
 	font-size: 0.8em;
 	color: #318FEC;
 
@@ -262,6 +249,131 @@ a {
 	width: 15px;
 
 }
+
+/* Content Section Ends */
+
+/* Features Sections*/
+
+/* Features 1 and 3 */
+
+.feature {
+
+	background-color: #F2F2F2 ;
+	height: 768px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+
+}
+
+.featureContainer h1 {
+
+
+	color: #318FEC;
+
+
+}
+
+.featureContainer p {
+
+	width: 80%;
+	padding-top: 20px;
+	color: #a9a9a9 ;
+
+}
+
+.feature .featureContainer {
+
+	box-sizing: border-box;
+	height: 768px;
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.feature .imgContainer {
+
+	height: 768px;
+	width: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.feature .imgContainer img {
+
+	-webkit-filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.2));
+    filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.3)); 
+
+}
+
+/* ----2---- */
+
+#feature2 {
+
+	background-color: #4399EE ;
+
+}
+
+#feature2 h1 {
+
+	color: #1561AC;
+
+}
+
+#feature2 p {
+
+	color: white;
+
+}
+
+
+
+/* ----End---- */
+
+/* Download Section Begins */
+
+.downloads {
+
+	display: flex;
+	padding-top: 100px;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #318fec;
+	height: 768px;
+	padding-bottom: 50px;
+
+}
+
+.downloadButtons {
+
+	display: flex;
+	align-items: center;
+
+	justify-content: center;
+
+}
+
+.downloads h1 {
+
+	color: #1561AC;
+
+}
+
+.downloads img {
+
+		-webkit-filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.2));
+    filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.3)); 
+
+}
+
+/* Download Section Ends */
 
 
 
@@ -279,18 +391,25 @@ a {
 
 @media screen and (max-width: 1080px) {
 
+	html {
+
+		font-size: 14px;
+
+	}
+
 	.jumbotron {
 
 		margin-top: 50px;
 		flex-direction: column;
 		padding-bottom: 0px;
+		height: 900px;
 
 	}
 
 	.jumbotronImg {
 
 		display: flex;
-		align-items: center;
+		align-items: flex-end;
 		justify-content: center;
 		height: 600px;
 		flex: 1;
@@ -300,7 +419,7 @@ a {
 	.jumbotronImg img {
 
 
-		width: 250px;
+		width: 350px;
 
 	}
 
@@ -308,7 +427,7 @@ a {
 
 	display: flex;
 	flex-direction: column;
-	height: 200px;
+	height:;
 	justify-content: center;
 	align-items: center;
 	margin-left: 0;
@@ -318,7 +437,7 @@ a {
 
 	}
 
-	h1 {
+	.landingText h1 {
 		font-size: 3em;
 		text-align: center;
 		color: white;
@@ -327,12 +446,12 @@ a {
 
 	}
 
-	h2 {
+	.landingText h2 {
 
-		margin-top: 20px;
+		margin-top: 10px;
 		text-align: center;
 		color: #1561AC;
-		width: 80%;
+		width: 90%;
 
 	}
 
@@ -399,18 +518,22 @@ a {
 		color: white;
 		text-decoration: none;
 		text-transform: uppercase;
+		width: 100%;
+		height: 100%;
+		line-height: 60px;
+		display: inline-block;
 	}
 
 	#mobileNav li {
-		padding: 20px;
 		
+		height: 60px;
+		width: 200px;
 		font-size: 0.8em;
 		text-align: center
 	}
 
 	#mobileNav li:nth-child(1):active {
 		border-radius: 5px 5px 0px 0px;
-		padding: 20px;
 		background-color: #104d89;
 		font-size: 0.8em;
 		text-align: center
@@ -418,7 +541,6 @@ a {
 
 	#mobileNav li:nth-child(2):active {
 		border-radius: 0px 0px 0px 0px;
-		padding: 20px;
 		background-color: #104d89;
 		font-size: 0.8em;
 		text-align: center
@@ -426,7 +548,6 @@ a {
 
 	#mobileNav li:nth-child(3):active {
 		border-radius: 0px 0px 5px 5px;
-		padding: 20px;
 		background-color: #104d89;
 		font-size: 0.8em;
 		text-align: center
@@ -440,48 +561,7 @@ a {
 		border-top: 1px solid #2c70b4;
 	}
 
-	.about {
-
-		flex-direction: column;
-		height: 900px;
-
-	}
-
-	.paragraph p {
-
-		width: 90%;
-
-	}
-
-	.about p {
-
-	
-		color: white;
-		font-size: 1.2em;
-		font-weight: 400;
-
-	}
-
-	.headline {
-
-		flex: 0.5;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		width: 100%;
-
-
-	}
-
-	.paragraph {
-
-		flex: 2;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-
-	}
-
+	/* Content */
 
 	.content {
 		display: flex;
@@ -490,6 +570,125 @@ a {
 		flex-direction: row;
 		height:;
 		flex-wrap: wrap;
+	}
+
+	/* Features */
+
+	.feature {
+
+		background-color: #F2F2F2 ;
+		height: 768px;
+		display: flex;
+		flex-direction:;
+		flex-wrap: wrap-reverse;
+		align-items: center;
+
+	}
+
+	.feature .featureContainer {
+
+		height: 40%;
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+	}
+
+	.feature .imgContainer {
+
+		height: 60%;
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: flex-end;
+
+	}
+
+	.feature .imgContainer img {
+
+		height: 90%;
+
+	}
+
+	#feature2 {
+
+		flex-wrap: wrap;
+
+	}
+
+	.downloads {
+
+		display: flex;
+		padding-top: 100px;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: center;
+		background-color: #318fec;
+		height: 700px;
+
+	}
+
+	.downloadButtons {
+
+		flex-direction: column;
+
+	}
+
+	.downloads h1 {
+
+		color: #1561AC;
+
+	}
+
+	.downloads img {
+
+		-webkit-filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.2));
+    	filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.3)); 
+    	width: 90%;
+    	max-width: 758px;
+
+	
+	}
+
+	
+
+}
+
+@media screen and (max-width: 600px) {
+
+	.downloads {
+
+		display: flex;
+		padding-top: 100px;
+		flex-direction: column;
+		justify-content: space-between;
+		align-items: center;
+		background-color: #318fec;
+		height: 500px;
+
+	}
+
+	.downloadButtons {
+
+		flex-direction: column;
+
+	}
+
+	.downloads h1 {
+
+		color: #1561AC;
+
+	}
+
+	.downloads img {
+
+		-webkit-filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.2));
+    	filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.3)); 
+    	width: 90%;
+    	max-width: 758px;
+
+	
 	}
 
 }
