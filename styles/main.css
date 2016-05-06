@@ -1189,7 +1189,7 @@ form span {
 		flex-wrap: wrap;
 		width: 50%;
 		flex: 1;
-		justify-content: space-around;
+		justify-content:;
 
 	}
 
@@ -1202,7 +1202,7 @@ form span {
 		flex-direction: column;
 		flex: 1;
 		background-color:;
-		justify-content: space-around;
+		justify-content: ;
 
 	}
 
