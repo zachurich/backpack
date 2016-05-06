@@ -4,6 +4,12 @@
 
 */
 
+body {
+
+	width: 100%;
+
+}
+
 body, h1, h2, ul, p{
 	margin: 0;
 	font-family: 'Montserrat';
