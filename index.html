@@ -5,9 +5,11 @@
 
 	<title>Site Template</title>
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" maximum-scale="1", user-scalable="0">
 	<link href="styles/main.css" type="text/css" rel="stylesheet">
+	<link rel="stylesheet" href="styles/animations.css">
 	<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
 	<script src="scripts/jquery-1.12.2.min.js" type = "text/javascript"></script>
 
 </head>
@@ -26,8 +28,8 @@
 			<div id="nav">
 
 				<ul>
-					<li><a href="#features">Features</a></li>
-					<li><a href="#contact">Contact</a></li>
+					<li class="links"><a href="#features">Features</a></li>
+					<li class="links"><a href="#contact">Contact</a></li>
 					<li class="button"><a href="#download">GET BACKPACK</a></li>
 				</ul>
 
@@ -64,9 +66,18 @@
 
 			</div>
 
+		
+
 			<div class="jumbotronImg">
 
-					<img src="images/iphoneMockLanding.svg" alt="">
+				
+				<div class="backpackContainer">	
+
+					<img class="backpack floating" src="images/backPackFloat.svg" alt="">
+
+					<img class="phoneOutline" src="images/iphoneMockLanding.svg" alt="">
+
+				</div>
 
 			</div>
 
@@ -176,13 +187,13 @@
 
 		<div class="imgContainer">
 			
-			<img src="" alt="grades">
+			<img src="images/gradesScreen.png" alt="grades">
 
 		</div>
 
 	</section>
 
-	<section class="downloads">
+	<section id="download" class="downloads">
 
 		<h1>Get Backpack</h1>
 
@@ -190,11 +201,44 @@
 
 		<div class="downloadButtons">
 
-			<a href=""><img src="" alt="AppStore"></a>
+			<a href=""><img src="images/appstorebadge.png" alt="AppStore"></a>
 
-			<a href=""><img src="" alt="PlayStore"></a>
+			<a href=""><img src="images/googleplaybadge.png" alt="PlayStore"></a>
 
 		</div>
+
+	</section>
+
+	<section id="contact" class="Contact">
+
+		<h1>Get a hold of us</h1>
+
+		<div class="formContainer">
+
+			<form action="//formspree.io/re.jo@live.com"
+	      method="POST">
+	    
+				<div class="contact-group">
+					<label><span>First Name</span>
+						<input type="text" name="name">
+					</label>
+
+					<label><span>Email Address</span>
+						<input type="email" name="_replyto">
+					</label>
+				</div>
+
+				<label>
+					<span>Tell us what's going on.</span>
+					<textarea type="message"></textarea>
+				</label>
+
+				<input class="send-button" type="submit" value="Submit">
+			
+			</form>
+
+		</div>
+
 
 	</section>
 
