@@ -12,7 +12,7 @@ html {
 
 body {
 
-	width: 100vw;
+	width: auto;
 	overflow: auto;
 
 }
@@ -75,7 +75,7 @@ input[type="submit"] {
 
 #logo {
 	
-	margin-left: 30px;
+	margin-left: 50px;
 	color: white;
 }
 
