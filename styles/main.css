@@ -1186,9 +1186,7 @@ form span {
 		align-items: center;
 		background-color:;
 		flex-direction: column;
-		flex-wrap: wrap;
 		width: 50%;
-		flex: 1;
 		justify-content:;
 
 	}
@@ -1198,9 +1196,8 @@ form span {
 		display: flex;
 		width: 50%;
 		align-items: center;
-		flex-wrap: wrap;
+
 		flex-direction: column;
-		flex: 1;
 		background-color:;
 		justify-content: ;
 
