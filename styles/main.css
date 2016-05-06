@@ -30,7 +30,6 @@ input {
 
 textarea,
 input[type="text"],
-input[type="button"],
 input[type="submit"] {
      -webkit-appearance: none;
      -webkit-border-radius: 0;
@@ -494,7 +493,7 @@ ul a {
 
 form {
 	margin: 0 auto;
-	width: 90%;
+	width: 80%;
 	max-width: 600px;
 	padding-top: 50px;
 	
@@ -541,7 +540,7 @@ textarea {
 
 .contact-group input {
 
-
+	padding-right: 0;
 
 }
 
