@@ -27,7 +27,7 @@ input[type="text"],
 input[type="button"],
 input[type="submit"] {
      -webkit-appearance: none;
-     border-radius: 0;
+     -webkit-border-radius: 0;
 }
 
 /* 
@@ -535,7 +535,7 @@ textarea {
 
 .contact-group input {
 
-	padding-right: 4px;
+
 
 }
 
