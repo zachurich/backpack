@@ -1,18 +1,1 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 19.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 64 64" style="enable-background:new 0 0 64 64;" xml:space="preserve">
-<style type="text/css">
-	.st0{fill:none;stroke:#318FEC;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
-	.st1{fill:none;stroke:#231F20;stroke-miterlimit:10;}
-	.st2{fill:none;stroke:#318FEC;stroke-width:4;stroke-miterlimit:10;}
-	.st3{fill:none;stroke:#231F20;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
-	.st4{fill:none;stroke:#318FEC;stroke-width:4;stroke-linecap:round;stroke-miterlimit:10;}
-	.st5{fill:none;stroke:#318FEC;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
-	.st6{fill:none;stroke:#318FEC;stroke-width:4;stroke-linejoin:round;stroke-miterlimit:10;}
-</style>
-<path class="st6" d="M44.7,44.3c-6.6,0-11.9,5.5-11.9,12.7h23.8C56.6,49.9,51.3,44.3,44.7,44.3z"/>
-<circle class="st6" cx="44.7" cy="30.2" r="8.7"/>
-<path class="st6" d="M19.7,30.3c-6.6,0-11.9,5.5-11.9,12.7h23.8C31.6,35.9,26.3,30.3,19.7,30.3z"/>
-<circle class="st6" cx="19.7" cy="16.2" r="8.7"/>
-</svg>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><defs><style>.cls-1{fill:none;stroke:#4399ee;stroke-linejoin:round;stroke-width:4px;}</style></defs><title>backpackIcons</title><path class="cls-1" d="M44.7,44.33c-6.56,0-11.88,5.54-11.88,12.67H56.58C56.58,49.87,51.26,44.33,44.7,44.33Z"/><circle class="cls-1" cx="44.7" cy="30.22" r="8.71"/><path class="cls-1" d="M19.7,30.33C13.15,30.33,7.83,35.87,7.83,43H31.58C31.58,35.87,26.26,30.33,19.7,30.33Z"/><circle class="cls-1" cx="19.7" cy="16.22" r="8.71"/></svg>
