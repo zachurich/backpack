@@ -778,14 +778,17 @@ form span {
 		flex-direction: column;
 		align-items: center;
 		justify-content: center;
-		position: absolute;
+		position: fixed;
+		z-index: 5;
 		width: 40px;
 		height: 40px;
 		border: 2px solid #4c9dee;
 		border-radius: 4px;
+		background-color: #318fec;
 		top: 22px;
 		right: 30px;
 		transition: all 0.1s ease-in-out;
+		opacity: 0.8
 
 	}
 
@@ -820,7 +823,8 @@ form span {
 		top: 90px;
 		border-radius: 5px;
 		box-shadow: 0 0 50px -20px #1a2530;
-		position: absolute;
+		position: fixed;
+		z-index: 5;
 		background-color: #1561AC;
 		display: block;
 		border: 2px solid #4c9dee;
@@ -1104,7 +1108,6 @@ form span {
 		top: 90px;
 		border-radius: 0px;
 		box-shadow: 0 0 50px -20px #1a2530;
-		position: absolute;
 		background-color: #1561AC;
 		display: block;
 		border-top: 2px solid #4c9dee;
