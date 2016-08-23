@@ -1,4 +1,4 @@
-/* 
+/*
 
 	Browser Resets
 
@@ -18,14 +18,14 @@ a {
 
 }
 
-/* 
+/*
 
 	Browser Resets End
 
 */
 
 
-/* 
+/*
 
 	Main Styles
 
@@ -34,7 +34,7 @@ a {
 .mainContainer {
 	background: url("");
 	background-size: cover;
-	background-color: #318fec; 
+	background-color: #318fec;
 	background-position: center center;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
@@ -46,17 +46,17 @@ a {
 	height: 100px;
 	align-items: center;
 	justify-content: space-between;
-	
+
 }
 
 #logo {
-	
+
 	margin-left: 30px;
 	color: white;
 }
 
 #nav {
-	
+
 }
 
 #nav li {
@@ -93,7 +93,7 @@ ul a {
 }
 
 #nav .button a:hover {
-	
+
 	color: #318fec;
 
 }
@@ -149,7 +149,7 @@ ul a {
 	height: 760px;
 	justify-content: center;
 	align-items: flex-start;
-	margin-left: 10%; 
+	margin-left: 10%;
 	flex: 1;
 
 
@@ -157,9 +157,9 @@ ul a {
 
 .landingText h1 {
 	font-size: 3em;
-	
+
 	color: white;
-	
+
 
 }
 
@@ -202,7 +202,7 @@ ul a {
 
 .phoneOutline {
 
-
+	height: 600px;
 	width: 700px;
 
 }
@@ -311,7 +311,7 @@ ul a {
 }
 
 .arrows {
-	
+
 	width: 15px;
 
 }
@@ -375,7 +375,7 @@ ul a {
 .feature .imgContainer img {
 
 	-webkit-filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.2));
-    filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.3)); 
+    filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.3));
 
 }
 
@@ -436,7 +436,7 @@ ul a {
 .downloads img {
 
 		-webkit-filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.2));
-    filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.3)); 
+    filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.3));
 
 }
 
@@ -479,7 +479,7 @@ form {
 	width: 90%;
 	max-width: 600px;
 	padding-top: 50px;
-	
+
 }
 
 
@@ -510,7 +510,7 @@ input, textarea {
 
 
 
-textarea {					
+textarea {
 
 	margin-bottom: 20px;
 	height: 10em;
@@ -518,7 +518,7 @@ textarea {
 
 
 .contact-group  {		/*Name and Email only*/
-	width: 100%;	
+	width: 100%;
 }
 
 .contact-group input {
@@ -656,7 +656,7 @@ form span {
 		margin-left: 0;
 		margin-top: 0px;
 		margin-bottom: 70px;
-	
+
 
 
 	}
@@ -666,7 +666,7 @@ form span {
 		text-align: center;
 		color: white;
 		width: 80%;
-	
+
 
 	}
 
@@ -709,7 +709,7 @@ form span {
 	}
 
 	#navButton span {
-		
+
 		display: block;
 		height: 2px;
 		background-color: white;
@@ -749,7 +749,7 @@ form span {
 	}
 
 	#mobileNav li {
-		
+
 		height: 60px;
 		width: 200px;
 		font-size: 0.9em;
@@ -759,21 +759,21 @@ form span {
 	#mobileNav li:nth-child(1):active {
 		border-radius: 5px 5px 0px 0px;
 		background-color: #104d89;
-		
+
 		text-align: center
 	}
 
 	#mobileNav li:nth-child(2):active {
 		border-radius: 0px 0px 0px 0px;
 		background-color: #104d89;
-		
+
 		text-align: center
 	}
 
 	#mobileNav li:nth-child(3):active {
 		border-radius: 0px 0px 5px 5px;
 		background-color: #104d89;
-		
+
 		text-align: center
 	}
 
@@ -790,7 +790,7 @@ form span {
 	.content {
 		display: flex;
 		padding: 20px;
-		justify-content: center; 
+		justify-content: center;
 		flex-direction: row;
 		height:;
 		flex-wrap: wrap;
@@ -868,11 +868,11 @@ form span {
 	.downloads img {
 
 		-webkit-filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.2));
-    	filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.3)); 
+    	filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.3));
     	width: 90%;
     	max-width: 758px;
 
-	
+
 	}
 
 	.send-button:active {
@@ -881,7 +881,7 @@ form span {
 
 	}
 
-	
+
 
 }
 
@@ -967,7 +967,7 @@ form span {
 	}
 
 	#mobileNav li {
-		
+
 		height: 100px;
 		width: 100%;
 		font-size: 0.9em;
@@ -977,7 +977,7 @@ form span {
 	#mobileNav li:nth-child(1):active {
 		border-radius: 5px 5px 0px 0px;
 		background-color: #104d89;
-		
+
 		text-align: center
 	}
 
@@ -990,7 +990,7 @@ form span {
 	#mobileNav li:nth-child(3):active {
 		border-radius: 0px 0px 5px 5px;
 		background-color: #104d89;
-	
+
 		text-align: center
 	}
 
@@ -1029,16 +1029,11 @@ form span {
 	.downloads img {
 
 		-webkit-filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.2));
-    	filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.3)); 
+    	filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.3));
     	width: 90%;
     	max-width: 758px;
 
-	
+
 	}
 
 }
-
-
-
-
-
