@@ -68,7 +68,7 @@ $(document).ready(function() {
 	// animations
 
 	$(window).scroll(function() {
-		$('.imgContainer').each(function(){
+		$('.imgContainer, .featuresCards').each(function(){
 		var imagePos = $(this).offset().top;
 
 		var topOfWindow = $(window).scrollTop();
